@@ -1,0 +1,8 @@
+/* profileSetting view Styles */
+.profileSetting-view {
+    @media (max-width: 767px) {
+        .profileSetting-work {
+            margin-bottom: 15px;
+        }
+    }
+}

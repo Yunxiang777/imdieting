@@ -1,0 +1,158 @@
+/* BMR view Styles */
+.bmr-view {
+
+    input::placeholder {
+        font-size: 12px;
+    }
+
+    .bmr-card {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .bmr-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bmr {
+        color: green;
+        display: inline;
+    }
+
+    .bmr-col {
+        margin-top: 20px;
+    }
+}
+
+/* calorieLookup view Styles */
+.calorieLookup-view {
+
+    .calorieLookup-search {
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .calorieLookup-card {
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    .calorieLookup-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .calorieLookup-foodName {
+        height: 50px;
+    }
+
+    .calorieLookup-card-body {
+        padding-top: 7%;
+    }
+
+    .calorieLookup-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+    }
+
+}
+
+/* calorieLookup swal Styles */
+.calorieLookup-custom-swal-button {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 14px;
+    border-color: #000000;
+}
+
+/* calorieLookup swal Styles */
+.calorieLookup-custom-swal-button:hover {
+    background-color: #353434;
+    color: #ffffff;
+}
+
+/* mealCard view Styles */
+.mealCard-view {
+
+    .mealCard-smallText-one {
+        display: none;
+    }
+
+    .mealCard-card {
+        height: 100%;
+        padding: 5% 5% 1% 5%;
+    }
+
+    .mealCard-card-top {
+        height: 30%;
+    }
+
+    .mealCard-card-bottom {
+        padding-top: 6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+    }
+
+    .mealCard-img-camera {
+        width: 35%;
+    }
+
+    @media screen and (max-width: 992px) {
+        .mealCard-card {
+            padding: 5% 2% 1% 2%;
+        }
+
+        .mealCard-img-camera {
+            width: 25%;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .mealCard-card {
+            padding: 5% 3.5% 1% 3.5%;
+        }
+
+        .mealCard-img-camera {
+            width: 20%;
+        }
+    }
+
+    @media screen and (max-width: 533px) {
+        .mealCard-card {
+            padding: 5% 3.5% 0% 3.5%;
+        }
+
+        .mealCard-img-camera {
+            width: 25%;
+        }
+
+        .mealCard-smallText-one {
+            display: block;
+            height: 100px;
+            margin-top: 10px;
+            color: #817f7f;
+        }
+
+        .mealCard-smallText-two {
+            display: none;
+        }
+
+    }
+
+    @media screen and (max-width: 390px) {
+        .mealCard-img-camera {
+            width: 84px;
+        }
+    }
+
+}

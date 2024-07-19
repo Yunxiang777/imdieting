@@ -1,0 +1,15 @@
+/* modalImageCrop view Styles */
+.modalImageCrop-view {
+    .modalImageCrop-close {
+        color: #000;
+        opacity: 0.5;
+        transition: opacity 0.3s ease-in-out;
+        border-radius: 50%;
+        width: 30px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .modalImageCrop-close:hover {
+        opacity: 1;
+    }
+}

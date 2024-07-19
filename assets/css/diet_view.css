@@ -1,0 +1,68 @@
+/* diet_view view Styles */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+.diet-view {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    text-align: center;
+
+    .diet-view-leftContent {
+
+        .diet-view-searchFood {
+            width: 100%;
+        }
+
+        .animate__bounceIn {
+            color: rgba(165, 64, 64, 0.546);
+        }
+
+        .diet-view-mealCard {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .diet-view-addMealCard {
+            border: 1px solid #e3865c;
+            padding: 8px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #de703d;
+            border-radius: 5%;
+            margin: 3px;
+        }
+
+        .fa-delete-left:before {
+            cursor: pointer;
+        }
+
+        .fa-delete-left {
+            margin-left: 3px;
+            color: #da0751;
+        }
+
+        .width50 {
+            width: 50%;
+        }
+
+        .width33 {
+            width: 33.333%;
+        }
+    }
+
+    .diet-view-rightContent {
+        .fa-solid {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .fa-regular {
+            cursor: pointer;
+        }
+
+        .diet-view-rightContent-icon {
+            padding-inline: 0px;
+        }
+    }
+}
